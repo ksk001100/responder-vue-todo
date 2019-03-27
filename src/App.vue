@@ -7,11 +7,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import Todo from './components/Todo.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    Todo,
   },
 })
 export default class App extends Vue {}
