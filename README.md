@@ -1,29 +1,13 @@
 # responder-vue-todo
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+## Setup
+```shell
+$ yarn install
+$ pipenv install
+$ pipenv run responder build
 ```
 
-### Compiles and minifies for production
+## Run
+```shell
+$ pipenv run python run.py
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
