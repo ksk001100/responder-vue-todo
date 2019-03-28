@@ -1,7 +1,7 @@
 import responder
 
 def create_api() -> responder.API:
-    api = responder.API(cors=True, allowed_hosts=['*'])
+    api = responder.API()
     return api
 
 api = create_api()
