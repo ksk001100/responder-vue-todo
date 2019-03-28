@@ -1,1 +1,1 @@
-from .todo_controller import IndexCreateTodo, ShowUpdateDeleteTodo
+from .todo_controller import IndexCreateTodo, DeleteTodo
