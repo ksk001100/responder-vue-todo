@@ -3,7 +3,7 @@
     <h2>ToDo App<br>Responder + Vue.js</h2>
     <form class="add-item" @submit.prevent="addTodo">
       <label>TASK</label>
-      <input type="text" ref="text">
+      <input type="text" ref="text" placeholder="input here...">
       <button type="submit" class="addButton">ADD</button>
     </form>
     <div class="todoTable">
