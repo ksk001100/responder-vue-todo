@@ -10,7 +10,6 @@ pylint = "*"
 asgiref = "==2.3.2"
 responder = "*"
 sqlalchemy = "*"
-mysqlclient = "*"
 
 [requires]
 python_version = "3.7"
