@@ -3,6 +3,7 @@ node_modules
 .venv
 /dist
 /static
+server/db.sqlite3
 
 # local env files
 .env.local
